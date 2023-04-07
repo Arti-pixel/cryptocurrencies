@@ -23,8 +23,6 @@ function App() {
     });
   }, []);
 
-  console.log(cryptos);
-
   return (
     <div className="App">
       {cryptos
